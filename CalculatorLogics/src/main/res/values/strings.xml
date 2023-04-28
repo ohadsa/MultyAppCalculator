@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CALCULATOR_EXPRESSION</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="ac">AC</string>
+    <string name="percent">%</string>
+    <string name="mul">x</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="equals_calc">=</string>
+    <string name="dot">.</string>
+    <string name="sub">÷</string>
+    <string name="_ac">AC</string>
+    <string name="_pi">π</string>
+    <string name="_e">e</string>
+    <string name="_ln">ln</string>
+    <string name="_source">√</string>
+    <string name="button_x_01">x⁻¹</string>
+    <string name="_x_pow_2">x²</string>
+    <string name="_x_pow_3">x³</string>
+    <string name="_sin">sin</string>
+    <string name="_cos">cos</string>
+    <string name="_tan">tan</string>
+    <string name="button_x_pow_y">xʸ</string>
+    <string name="sign">-/+</string>
+    <string name="undo">◁</string>
+    <string name="redo">▷</string>
+    <string name="delete">⌦</string>
+    <string name="left_bracket">(</string>
+    <string name="right_bracket">)</string>
+    <string name="sqrt3">∛</string>
+    <string name="log">log</string>
+    <string name="fact">!</string>
+    <string name="_2_pow_x">2ˣ</string>
+    <string name="ans">ans</string>
+    <string name="pos_or_neg">-/+</string>
+
+
+    <string name="cos_pow_01">cos⁻¹</string>
+    <string name="tan_pow_01">tan⁻¹</string>
+    <string name="sin_pow_01">sin⁻¹</string>
+    <string name="button_e_pow_x">eˣ</string>
+
+</resources>

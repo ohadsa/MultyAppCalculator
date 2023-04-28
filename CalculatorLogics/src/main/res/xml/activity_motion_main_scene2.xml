@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/flow_btn"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            motion:flow_maxElementsWrap="4"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="@id/guideline"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:constraint_referenced_ids='button_ac,button_undo,button_redo,button_delete,button_ans,button_left_br,button_right_br,button_div,button_7,button_8,button_9,button_mul,button_4,button_5,button_6,button_minus,button_1,button_2,button_3,button_plus,button_0,button_dot,button_equals' />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/flow_btn"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            motion:flow_maxElementsWrap="8"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="@id/guideline"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:constraint_referenced_ids="button_ac,button_ans,button_undo,button_redo,button_delete,button_left_br,button_right_br,button_div,button_2_pow_x,button_x_pow_2,button_x_pow_3,button_x_pow_y,button_7,button_8,button_9,button_mul,button_log,button_source,button_source_03,button_ln,button_4,button_5,button_6,button_minus,button_sin,button_cos,button_tan,button_sign,button_1,button_2,button_3,button_plus,button_percent,button_factorial,button_pi,button_e,button_0,button_dot,button_equals"
+             />
+    </ConstraintSet>
+</MotionScene>
